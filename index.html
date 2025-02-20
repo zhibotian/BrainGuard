@@ -339,9 +339,15 @@
         <h2 class="title is-3 ">Results</h2>
         <div class="content has-text-justified">
           <p>
-            <b>Visual comparison results</b> of brain decoding with only one model. Unlike previous methods, which confine one model to a 
+<!--             <b>Visual comparison results</b> of brain decoding with only one model. Unlike previous methods, which confine one model to a 
             specific subject, our proposed cross-subject brain decoding framework, 
-            <span class="dnerf"><b>MindBridge</b></span>, can reconstruct images from multiple subjects using just one model.
+            <span class="dnerf"><b>MindBridge</b></span>, can reconstruct images from multiple subjects using just one model. -->
+
+            textbf{Qualitative comparisons on the NSD \texttt{test} dataset.} 
+            \textsc{BrainGuard} performs a single training session on multisubject fMRI data, 
+            demonstrates superior reconstruction accuracy compared to four recent state-of-the-art methods
+            ~\cite{quan2024psychometry,wang2024mindbridge,scotti2023reconstructing,ozcelik2023brain},
+            while effectively preserving data privacy.}
           </p>
           <img src="./static/images/compare_result.png" alt="compare results" style="width: 100%; height: auto;">
         </div>
